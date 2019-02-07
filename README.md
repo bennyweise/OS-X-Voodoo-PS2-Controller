@@ -85,7 +85,11 @@ Note: often times you will see either of the two problems mentioned above right 
 
 ### Change Log:
 
-2018-05-6 v1.8.34
+2019-02-07 v1.8.34
+
+- Tapping stability: ignore moves while waiting for tap gestures (eg. pointer will not move while making a tap or double tap gesture)
+
+- Increase TapThreasholdX/Y, DoubleTapThresholdX/Y (from 50/100 to 75/150)2018-05-6 v1.8.34
 
 - fix bug with DisableDevice when used with the Synaptics profile
 
